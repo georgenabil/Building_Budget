@@ -1,6 +1,6 @@
 <?php
 
-//header('Refresh:3;url=dashboard.php'); 
+header('Refresh:3;url=dashboard.php'); 
 require_once('../config/Database.php');
 require_once('../models/Treasury.php');
 require_once('../models/Receivable.php');
